@@ -8,8 +8,8 @@ import java.nio.charset.Charset;
  * User: ton Date: 03.06.14 Time: 12:31
  */
 public class MAVLinkMessage {
-    public final static byte START_OF_FRAME_MAVLINK1 = (byte) 0xFE;
-    public final static byte START_OF_FRAME_MAVLINK2 = (byte) 0xFD;
+    public final static byte START_OF_FRAME_MAVLINK1 = (byte) 0xE5;//0xFE;
+    public final static byte START_OF_FRAME_MAVLINK2 = (byte) 0xE6;//0xFD;
     public final static int MAVLINK1_HEADER_LENGTH = 6;
     public final static int CRC_LENGTH = 2;
     public final static int SIGNATURE_LENGTH = 13;
